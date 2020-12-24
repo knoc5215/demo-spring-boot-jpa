@@ -17,6 +17,16 @@ public class Account {
 
     private String email;
 
+    private boolean active;
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
     public String getEmail() {
         return email;
     }
